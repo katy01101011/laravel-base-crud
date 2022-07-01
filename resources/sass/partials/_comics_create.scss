@@ -1,0 +1,65 @@
+.comics_create {
+    width: 100%;
+
+    h2 {
+        font-size: 2rem;
+padding-top: 3rem;
+        transform: rotate(5deg);
+    }
+
+    .container {
+        width: 60%;
+        margin: auto;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            label {
+                color: black;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1.4rem;
+                margin-top: 3rem;
+            }
+
+            input, textarea {
+                width: 100%;
+                background-color:deeppink;
+                border: 2px solid white;
+                border-radius: 20px;
+            }
+
+            input {
+                height: 40px;
+            }
+
+            textarea {
+                height: 100px;
+            }
+
+            button {
+                width: 100px;
+                height: 100px;
+                border: none;
+                border-radius: 50%;
+                margin: 3rem 0 6rem;
+                background-color: black;
+                color: chartreuse;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1.5rem;
+                transform: rotate(-12deg);
+                transition: .7s;
+
+                &:hover {
+                    color: deeppink;
+                    transition: .7s;
+                    transform: rotate(372deg);
+                }
+            }
+        }
+    }
+}

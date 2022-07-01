@@ -1,1 +1,24 @@
-//
+@import "partials/header.scss";
+@import "partials/comics_index.scss";
+@import "partials/comics_show.scss";
+@import "partials/comics_create.scss";
+@import "partials/footer.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: deeppink;
+    text-align: center;
+
+    h1 {
+        font-size: 7rem;
+        transform: rotate(-7deg);
+        letter-spacing: 2rem;
+        padding: 10rem 0;
+        line-height: 40vh;
+    }
+}
